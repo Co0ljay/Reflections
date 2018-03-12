@@ -23,3 +23,33 @@ What value do you think it offers?
 	I think that the staging area is where you add all the files that you want to add to the commit
 	It saves you, that you can ensure that the logical steps are followed and added
 	
+How can you use the staging area to make sure you have one commit per logical change?
+
+	make use of git status
+	
+What are some situations when branches would be helpful in keeping your history organized? 
+How would branches help?
+
+	If there is a new or experimental feature that is to be added to a working system, it would
+	be very helpful to branch off to ensure that the new code does not impact the working code
+	It can then be merged into the main branch once the testing has proved that the new feature
+	has not impacted or broken existing functionality.
+	
+How do the diagrams help you visualize the branch structure?
+
+	It help the developer to see where the branches are that they are working on.  Visually it 
+	gives a sense of direction and where to merge what at the time of updating the master
+	
+What is the result of merging two branches together? 
+Why do we represent it in the diagram the way we do?
+
+	The merging of two branches result in a new master file, with two parent files.  The parent 
+	files retain all the commits and is traceable from the point of the merger.
+	
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+	Pro's: It helps to see where the merger error/s lie and would force a code review to ensure
+	that nothing will break and that the most recent code is implemented
+	
+	Con's: The most recent code may not be working and thus, will break the program or app.
+	This will force the developer/s to ensure that a code review takes place
