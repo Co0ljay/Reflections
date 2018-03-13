@@ -1,1 +1,26 @@
-When would you want to create a remote repository rather than keeing all your work local?
+When would you want to create a remote repository rather than keeping all your work local?
+
+	A local repo is only useful when you are working on something that is not ready for the 
+	public consumption yet or it is proprietary.  
+	
+Why might you want to always pull changes manually rather than having Git automatically 
+stay up-to-date with your remote repository?
+
+	I would prefer pulling the changes manually, rather than Git pushing it down, or pulling it
+	up.  There may be a conflict in code or there may be a bug that I am working on that I do not
+	want to push up until the correct fix has been applied.
+	
+Describe the differences between forks, clones, and branches. 
+When would you use one instead of another?
+
+	A Fork is to copy a repo with credit to the creator.  This will be online and no local copy will
+	be present.
+	A clone is to copy a repo with credit to the creator to your local machine to edit and upload
+	to your own repo, should you wish to do so
+	A branch is a copy of your own code that you are enhancing.  This is to safeguard your working
+	code base.
+	
+	One would use a fork to copy a repo, with credit from the creator and be able to modify it to
+	you own liking.  To clone a repo, you can create a local copy of the repo to edit and update
+	to your own liking.
+	
